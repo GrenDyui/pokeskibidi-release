@@ -1,9 +1,9 @@
 {
-  "version": "1.5.3",
-  "releaseDate": "2026-11-19T03:53:34.562Z",
-  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.5.3/app.asar",
-  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.5.3/app.asar",
-  "asarSize": 1567172,
-  "sha256": "444ab7e867e6f2e3c77e0a5db1edaa1154049fe69d70c03e126042c7a7be3501",
-  "notes": "Bản cập nhật v1.5.3 — Nâng cấp toàn diện độ bền bỉ, chuyển sang GitHub Releases và chống kẹt Closed Beta:\n• Chuyển đổi toàn diện hệ thống cập nhật sang GitHub Releases & jsDelivr CDN — không còn phụ thuộc Google Drive, tốc độ tải cực nhanh.\n• Phân tách an toàn nút Start Game: Tự động bảo vệ và điều hướng sang chế độ chơi chuẩn khi gặp nút Closed Beta (Fish Event) bị khóa của Pokelit, chống văng app hay lỗi mở Discord.\n• Loại bỏ hoàn toàn tính năng tăng tốc 2x nhằm bảo toàn tính nguyên bản và độ an toàn tuyệt đối cho tài khoản.\n• Tối ưu hoá toàn diện mã nguồn, dọn dẹp module dư thừa, nạp bot bundle tức thì, giảm tải CPU và tối ưu bộ nhớ.\n• Tăng cường phòng vệ Client-Guard, ẩn giấu triệt để cờ tự động hoá, cloaking navigator.webdriver, làm sạch stack trace lỗi.\n• Nâng cấp mô phỏng di chuyển mượt mà tự nhiên với độ trễ phản xạ và micro-adjustments như người thật.\n• Cơ chế Account-Status fail-safe thông minh phát hiện phản hồi bất thường (401, 403, 429, captcha, challenge) và tự động dừng an toàn."
+  "version": "1.5.4",
+  "releaseDate": "2026-11-19T12:57:40.802Z",
+  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.5.4/app.asar",
+  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.5.4/app.asar",
+  "asarSize": 1568079,
+  "sha256": "e3658abb935737a27501adb526329fa29437f7304be51185480f41f899283526",
+  "notes": "Bản cập nhật v1.5.4 — Duy trì chạy ngầm tuyệt đối dưới khay hệ thống khi reset/update, khóa FPS 15 chống ngốn RAM và nóng máy:\n• Duy trì trạng thái chạy ngầm (Silent Background): Tự động duy trì ẩn dưới khay hệ thống khi hết chu kỳ reset hoặc sau khi cập nhật phiên bản mới, ngăn chặn việc tự ý bung cửa sổ.\n• Tiết kiệm tài nguyên và hạ nhiệt máy: Kích hoạt Eco Mode ngay khi khởi động ẩn, ngắt vòng lặp vẽ đồ họa và khóa FPS ở mức 15 FPS giúp CPU và RAM luôn ở mức cực thấp.\n• Chuyển đổi toàn diện hệ thống cập nhật sang GitHub Releases & jsDelivr CDN — không còn phụ thuộc Google Drive, tốc độ tải cực nhanh.\n• Phân tách an toàn nút Start Game: Tự động bảo vệ và điều hướng sang chế độ chơi chuẩn khi gặp nút Closed Beta (Fish Event) bị khóa của Pokelit, chống văng app hay lỗi mở Discord.\n• Loại bỏ hoàn toàn tính năng tăng tốc 2x nhằm bảo toàn tính nguyên bản và độ an toàn tuyệt đối cho tài khoản.\n• Tối ưu hoá toàn diện mã nguồn, dọn dẹp module dư thừa, nạp bot bundle tức thì, giảm tải CPU và tối ưu bộ nhớ.\n• Tăng cường phòng vệ Client-Guard, ẩn giấu triệt để cờ tự động hoá, cloaking navigator.webdriver, làm sạch stack trace lỗi.\n• Nâng cấp mô phỏng di chuyển mượt mà tự nhiên với độ trễ phản xạ và micro-adjustments như người thật.\n• Cơ chế Account-Status fail-safe thông minh phát hiện phản hồi bất thường (401, 403, 429, captcha, challenge) và tự động dừng an toàn."
 }
