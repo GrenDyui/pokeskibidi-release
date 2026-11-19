@@ -1,9 +1,9 @@
 {
   "version": "1.5.3",
-  "releaseDate": "2026-11-19T03:47:07.283Z",
+  "releaseDate": "2026-11-19T03:53:34.562Z",
   "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.5.3/app.asar",
-  "asarFallbackUrl": "https://cdn.jsdelivr.net/gh/GrenDyui/pokeskibidi-release@main/app.asar",
-  "asarSize": 394637195,
-  "sha256": "acdfca149104e4e9fa4a30ce7e36219940fdeb825947410909d93976f4d80042",
+  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.5.3/app.asar",
+  "asarSize": 1567172,
+  "sha256": "444ab7e867e6f2e3c77e0a5db1edaa1154049fe69d70c03e126042c7a7be3501",
   "notes": "Bản cập nhật v1.5.3 — Nâng cấp toàn diện độ bền bỉ, chuyển sang GitHub Releases và chống kẹt Closed Beta:\n• Chuyển đổi toàn diện hệ thống cập nhật sang GitHub Releases & jsDelivr CDN — không còn phụ thuộc Google Drive, tốc độ tải cực nhanh.\n• Phân tách an toàn nút Start Game: Tự động bảo vệ và điều hướng sang chế độ chơi chuẩn khi gặp nút Closed Beta (Fish Event) bị khóa của Pokelit, chống văng app hay lỗi mở Discord.\n• Loại bỏ hoàn toàn tính năng tăng tốc 2x nhằm bảo toàn tính nguyên bản và độ an toàn tuyệt đối cho tài khoản.\n• Tối ưu hoá toàn diện mã nguồn, dọn dẹp module dư thừa, nạp bot bundle tức thì, giảm tải CPU và tối ưu bộ nhớ.\n• Tăng cường phòng vệ Client-Guard, ẩn giấu triệt để cờ tự động hoá, cloaking navigator.webdriver, làm sạch stack trace lỗi.\n• Nâng cấp mô phỏng di chuyển mượt mà tự nhiên với độ trễ phản xạ và micro-adjustments như người thật.\n• Cơ chế Account-Status fail-safe thông minh phát hiện phản hồi bất thường (401, 403, 429, captcha, challenge) và tự động dừng an toàn."
 }
