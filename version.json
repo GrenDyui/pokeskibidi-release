@@ -1,0 +1,8 @@
+{
+  "version": "1.5.3",
+  "releaseDate": "2026-11-19T00:13:47.891Z",
+  "asarUrl": "https://drive.usercontent.google.com/download?id=1jSMeWnx6gdf5MIy2XrfdFIdyIgL-OtI6&export=download",
+  "asarSize": 1575964,
+  "sha256": "561e1947661426531ea749b3194b2d227d80a0aaec51abc78fff1fc55111afea",
+  "notes": "Bản cập nhật v1.5.3 — Nâng cấp toàn diện độ bền bỉ, mô phỏng thao tác phần cứng và bảo vệ tài khoản:\n• Loại bỏ hoàn toàn tính năng tăng tốc 2x nhằm bảo toàn tính nguyên bản và độ an toàn tuyệt đối cho tài khoản.\n• Tối ưu hoá toàn diện mã nguồn, dọn dẹp module dư thừa, bộ nhớ đệm nạp bot bundle tức thì.\n• Hiện đại hoá giao diện người dùng theo chuẩn phong cách PokéLit dark theme sắc nét, đối xứng 8 công cụ chiến thuật.\n• Tăng cường phòng vệ Client-Guard, ẩn giấu triệt để cờ tự động hoá, cloaking navigator.webdriver, làm sạch stack trace lỗi.\n• Nâng cấp mô phỏng di chuyển mượt mà tự nhiên với độ trễ phản xạ và micro-adjustments như người thật.\n• Cơ chế Account-Status fail-safe thông minh phát hiện phản hồi bất thường (401, 403, 429, captcha, challenge) và tự động dừng an toàn."
+}
