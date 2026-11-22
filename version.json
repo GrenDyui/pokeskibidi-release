@@ -1,9 +1,9 @@
 {
-  "version": "1.5.7",
-  "releaseDate": "2026-11-22T08:33:05.863Z",
-  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.5.7/app.asar",
-  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.5.7/app.asar",
-  "asarSize": 1566662,
-  "sha256": "946f7c8d2dc66621449be04fc2ab49685392f12d839e77ab5c98a3ea4eff084c",
-  "notes": "Bản cập nhật v1.5.7 — Đột phá tối ưu nhặt rương AFK & Ổn định vòng lặp treo máy 24/7:\n• [P0] Khắc phục triệt để lỗi bỏ sót rương: Nâng bán kính quét presentChest lên 64px, tách biệt tuyệt đối rương khỏi EXP thường (rương luôn ưu tiên số 1) và bổ sung cơ chế trụ vững mở rương (vFirmChestHold) chống trượt khi quái đông.\n• [P0] Sửa lỗi xóa trắng trạng thái 100 giây đầu: Khắc phục lỗi reset nhầm EXP target và steering do kiểm tra cứng gameTime < 100, bảo toàn trạng thái di chuyển và cày cấp suốt trận.\n• [P1] Tăng tốc tự sát khi hết giờ Arceus (Fast-Wipe): Chủ động lao thẳng vào boss/Arceus ngay khi chạm mốc 15 phút thay vì đứng im chờ 15s, rút ngắn chu kỳ tái khởi động trận mới.\n• [P1] Bảo toàn dữ liệu phiên chạy (Session Analytics): Cơ chế tích lũy sessionStats bền vững hasAny thay vì all-or-nothing break, đảm bảo không mất lịch sử chuỗi trận qua đêm.\n• [P2] Cơ chế gửi lại Discord Webhook thông minh: Tự động thử lại khi mạng chập chờn và phục hồi cache sự kiện, không lo mất log báo cáo kết thúc trận.\n• [P2] Tối ưu chạy nền và hạ nhiệt máy: Kích hoạt Blob Web Worker duy trì 60 FPS chuẩn xác ngầm (CSP worker-src 'self' blob:;) và hạ mức ưu tiên PRIORITY_BELOW_NORMAL cho cả Main lẫn Renderer process giúp máy luôn mát mẻ."
+  "version": "1.5.8",
+  "releaseDate": "2026-11-22T10:43:32.144Z",
+  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.5.8/app.asar",
+  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.5.8/app.asar",
+  "asarSize": 1565768,
+  "sha256": "9e2eb3a4554f96de477587e8e55bd92832d8a228c77e4392b715bb4daeaf65bd",
+  "notes": "Bản cập nhật v1.5.8 — Đột phá Siêu tiết kiệm tài nguyên & Hạ nhiệt máy tối đa khi treo AFK 24/7:\n• [P0] Siêu tối ưu RAM & V8 Heap: Khóa trần bộ nhớ V8 xuống 192MB (--max-old-space-size=192) và GPU buffer 64MB, ngăn chặn triệt để hiện tượng Renderer phình to 480MB+.\n• [P0] Cơ chế dọn rác định kỳ (Periodic Trim Memory & GC): Tự động dọn rác bộ nhớ heap và texture sau mỗi 30 giây trong trận đấu, giữ RAM game luôn ổn định ở mức cực thấp (~150-200MB).\n• [P0] Chế độ Eco toàn diện cả khi mở cửa sổ: Tự động kích hoạt đồ họa Potato, chất lượng thấp, tắt số sát thương nhảy màn hình (dmgNumbers: none), tắt hiệu ứng moveAlpha/mateAlpha và khóa FPS giúp giảm 60-70% tải CPU ngay cả khi đang xem trực tiếp trên màn hình.\n• [P0] Khóa FPS và Zero-Draw khi chạy nền: Giữ mức 15 FPS và ngắt render canvas khi ẩn xuống khay, kéo CPU xuống còn ~1-3%.\n• [P1] Luôn duy trì mức ưu tiên CPU PRIORITY_BELOW_NORMAL cho cả Main và Renderer tiến trình khi bật EcoMode, ngăn quạt tản nhiệt rú và giữ laptop luôn mát mẻ.\n• Giữ nguyên toàn bộ các bản vá P0 nhặt rương (vFirmChestHold, tầm quét 64px, ưu tiên rương tuyệt đối) và tự sát Arceus nhanh của v1.5.7."
 }
