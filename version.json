@@ -1,9 +1,9 @@
 {
-  "version": "1.5.8",
-  "releaseDate": "2026-11-22T10:43:32.144Z",
-  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.5.8/app.asar",
-  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.5.8/app.asar",
-  "asarSize": 1565768,
-  "sha256": "9e2eb3a4554f96de477587e8e55bd92832d8a228c77e4392b715bb4daeaf65bd",
-  "notes": "Bản cập nhật v1.5.8 — Đột phá Siêu tiết kiệm tài nguyên & Hạ nhiệt máy tối đa khi treo AFK 24/7:\n• [P0] Siêu tối ưu RAM & V8 Heap: Khóa trần bộ nhớ V8 xuống 192MB (--max-old-space-size=192) và GPU buffer 64MB, ngăn chặn triệt để hiện tượng Renderer phình to 480MB+.\n• [P0] Cơ chế dọn rác định kỳ (Periodic Trim Memory & GC): Tự động dọn rác bộ nhớ heap và texture sau mỗi 30 giây trong trận đấu, giữ RAM game luôn ổn định ở mức cực thấp (~150-200MB).\n• [P0] Chế độ Eco toàn diện cả khi mở cửa sổ: Tự động kích hoạt đồ họa Potato, chất lượng thấp, tắt số sát thương nhảy màn hình (dmgNumbers: none), tắt hiệu ứng moveAlpha/mateAlpha và khóa FPS giúp giảm 60-70% tải CPU ngay cả khi đang xem trực tiếp trên màn hình.\n• [P0] Khóa FPS và Zero-Draw khi chạy nền: Giữ mức 15 FPS và ngắt render canvas khi ẩn xuống khay, kéo CPU xuống còn ~1-3%.\n• [P1] Luôn duy trì mức ưu tiên CPU PRIORITY_BELOW_NORMAL cho cả Main và Renderer tiến trình khi bật EcoMode, ngăn quạt tản nhiệt rú và giữ laptop luôn mát mẻ.\n• Giữ nguyên toàn bộ các bản vá P0 nhặt rương (vFirmChestHold, tầm quét 64px, ưu tiên rương tuyệt đối) và tự sát Arceus nhanh của v1.5.7."
+  "version": "1.5.9",
+  "releaseDate": "2026-11-22T12:40:17.229Z",
+  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.5.9/app.asar",
+  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.5.9/app.asar",
+  "asarSize": 1571625,
+  "sha256": "6114cd27bebf234446058960e5a8a81a95a478f3ddc6dcaeb489e65686681d53",
+  "notes": "Bản cập nhật v1.5.9 — Đột phá Siêu tiết kiệm tài nguyên & Tự động xả sạch RAM vật lý Windows khi treo AFK 24/7:\n• [P0] Tự động giải phóng RAM vật lý (Auto-Trim Working Set via Win32 API): Tích hợp module trim.exe siêu nhẹ (4KB) tự động xả sạch trang nhớ vật lý của toàn bộ tiến trình PokeSkibidi mỗi 30 giây, khi hết ván và ngay khi thu nhỏ/ẩn xuống khay, kéo RAM thực tế trong Task Manager từ 1.6GB xuống dưới 100MB.\n• [P0] Siêu tối ưu V8 Heap & GPU Buffer: Khóa trần bộ nhớ V8 xuống 192MB (--max-old-space-size=192) và GPU buffer 64MB, ngăn chặn triệt để rò rỉ bộ nhớ.\n• [P0] Khóa FPS và Zero-Draw khi chạy nền: Giữ mức 15 FPS và ngắt hoàn toàn render canvas khi ẩn xuống khay, kéo CPU xuống còn 1-3%.\n• [P1] Luôn duy trì mức ưu tiên CPU PRIORITY_BELOW_NORMAL cho cả Main và Renderer tiến trình khi bật EcoMode, ngăn quạt tản nhiệt rú và giữ máy luôn mát rượi.\n• Giữ nguyên toàn bộ các bản vá P0 nhặt rương (vFirmChestHold, tầm quét 64px, ưu tiên rương tuyệt đối) và tự sát Arceus nhanh."
 }
