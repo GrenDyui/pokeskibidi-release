@@ -1,9 +1,9 @@
 {
   "version": "1.6.1",
-  "releaseDate": "2026-11-23T12:10:20.283Z",
+  "releaseDate": "2026-11-23T12:22:47.820Z",
   "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.6.1/app.asar",
   "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.6.1/app.asar",
-  "asarSize": 1627017,
-  "sha256": "c5df0e46133868c795ef9de7d75eec45df2c8eb231f533b205ff5b79c681146f",
+  "asarSize": 1627033,
+  "sha256": "d8a50c04d72bd55dde43c04ae7ccd871c822c636124c8dbc8a9a92dba607ee51",
   "notes": "Bản cập nhật v1.6.1 — Tích hợp Động cơ Câu cá Tự động (Hybrid Stealth), Phân chia 2 Chế độ Chơi & Tự động Đăng nhập lại (Auto Relogin):\n• [P0] Tự động Đăng nhập lại (Auto Relogin): Hỗ trợ lưu trữ tài khoản/mật khẩu trong cài đặt, tự động phát hiện màn hình đăng nhập khi tài khoản bị văng để điền và đăng nhập lại ngay lập tức.\n• [P0] Phân chia 2 Chế độ chơi rõ ràng: Chuyển đổi linh hoạt giữa Chế độ Sinh Tồn (Battle) và Chế độ Câu Cá (Fishing) với giao diện thiết lập độc lập.\n• [P0] Động cơ Câu cá Tự động Thông minh (Hybrid Stealth Fishing): Tự chọn 8 vùng nước theo hệ Pokémon hoặc tự hoàn thành Bestiary; kéo cá đạt Perfect Catch (+25% Pearls) nhưng vẫn an toàn 100% nhờ mô phỏng tay người (chuỗi trúng 4-6 con, giả vờ hụt 1-3 con, nghỉ 1-2s giữa các lần quăng, chệch nhịp 0.8s đầu và chu kỳ thoát vào lại sau 30 phút).\n• [P0] Quản lý chiến lợi phẩm câu cá: Tự động giữ cá Shiny/Hiếm, tự dịch chuyển về bến cảng bán sạch cá thường lấy Ngọc Trai khi đầy túi và tự nạp mồi câu.\n• [P0] Kế thừa toàn diện bản vá lỗi di chuyển (nearbySpecials is not defined): Đảm bảo nhân vật luôn di chuyển nhặt rương mượt mà, không bao giờ bị đứng im."
 }
