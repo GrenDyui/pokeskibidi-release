@@ -1,9 +1,9 @@
 {
-  "version": "1.6.3",
-  "releaseDate": "2026-11-23T13:49:04.633Z",
-  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.6.3/app.asar",
-  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.6.3/app.asar",
-  "asarSize": 1640414,
-  "sha256": "1954c0e52d4871db04176786607d2ea875ea26109d58bc70001bfd62dae8e899",
-  "notes": "Bản cập nhật v1.6.3 — Tích hợp Động cơ Câu cá Tự động (Hybrid Stealth), Phân chia 2 Chế độ Chơi & Tự động Đăng nhập lại (Auto Relogin):\n• [P0] Tự động Đăng nhập lại (Auto Relogin): Hỗ trợ lưu trữ tài khoản/mật khẩu trong cài đặt, tự động phát hiện màn hình đăng nhập khi tài khoản bị văng để điền và đăng nhập lại ngay lập tức.\n• [P0] Phân chia 2 Chế độ chơi rõ ràng: Chuyển đổi linh hoạt giữa Chế độ Sinh Tồn (Battle) và Chế độ Câu Cá (Fishing) với giao diện thiết lập độc lập.\n• [P0] Động cơ Câu cá Tự động Thông minh (Hybrid Stealth Fishing): Tự chọn 8 vùng nước theo hệ Pokémon hoặc tự hoàn thành Bestiary; kéo cá đạt Perfect Catch (+25% Pearls) nhưng vẫn an toàn 100% nhờ mô phỏng tay người (chuỗi trúng 4-6 con, giả vờ hụt 1-3 con, nghỉ 1-2s giữa các lần quăng, chệch nhịp 0.8s đầu và chu kỳ thoát vào lại sau 30 phút).\n• [P0] Quản lý chiến lợi phẩm câu cá: Tự động giữ cá Shiny/Hiếm, tự dịch chuyển về bến cảng bán sạch cá thường lấy Ngọc Trai khi đầy túi và tự nạp mồi câu.\n• [P0] Kế thừa toàn diện bản vá lỗi di chuyển (nearbySpecials is not defined): Đảm bảo nhân vật luôn di chuyển nhặt rương mượt mà, không bao giờ bị đứng im."
+  "version": "1.6.4",
+  "releaseDate": "2026-11-23T15:52:09.467Z",
+  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.6.4/app.asar",
+  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.6.4/app.asar",
+  "asarSize": 1645942,
+  "sha256": "bb4eb0002d84b98b6fdb35ed3e153ccfbd61a84636d5270f1be0a8dcab23f434",
+  "notes": "Bản cập nhật v1.6.4 — Sửa triệt để lỗi Di chuyển, Hoàn thiện Động cơ Câu cá Tự động (Fishing Engine) & Gỡ bỏ xung đột Chế độ chơi:\n• [P0] Triệt tiêu vĩnh viễn lỗi di chuyển (nearbySpecials is not defined): Khai báo biến an toàn và bổ sung mảng phòng thủ trong thuật toán tìm rương, đảm bảo bot né tránh và di chuyển mượt mà không bao giờ bị dừng.\n• [P0] Khắc phục lỗi Input không tương thích trên trang Câu cá (/fish): Nhận diện đúng trang sự kiện /fish, bypass sandbox sinh tồn để bot thao tác trực tiếp mượt mà 100%.\n• [P0] Khắc phục lỗi chọn Câu cá lại nhảy vào Chơi sinh tồn: Gỡ bỏ triệt để bộ lọc click Beta cũ và khóa lệnh bắt đầu sinh tồn khi đang chuyển sang vùng câu.\n• [P0] Tắt đồng hồ đếm ngược tự phục hồi (Watchdog Recovery) khi câu cá: Không còn hiện thông báo 'Tự phục hồi sau 228 giây nếu game không tiến triển', giữ phiên câu cá ổn định xuyên suốt.\n• [P0] Tự động cất cá vào túi & Hiển thị trạng thái chi tiết: Khắc phục popup #keep không đóng, cập nhật trạng thái thời gian thực: Đang tới bãi câu, Quăng cần, Đợi cá cắn, Giật cần, Kéo cá, Cất vào túi, Nghỉ chống ban."
 }
