@@ -1,9 +1,9 @@
 {
-  "version": "1.6.5",
-  "releaseDate": "2026-11-23T19:20:17.456Z",
-  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.6.5/app.asar",
-  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.6.5/app.asar",
-  "asarSize": 1657358,
-  "sha256": "1be8f3e18d0b05e6b8ec5761c90024fe4b59e9bc8c23c2150b7ca64871d18bf1",
-  "notes": "Bản cập nhật v1.6.5 — Sửa triệt để 4 lỗi trọng yếu: Dừng/Tạm dừng, Hyper Reeling 100% Catch, Quét 10 bãi câu & Sửa kẹt màn hình Loading:\n• [P0] Dừng & Tạm dừng tuyệt đối (Strict Stop / Pause): Đã gỡ bỏ auto-start timer ép bật bot trên /fish, bổ sung cờ chặn userStopped. Khi bấm Dừng hoặc Tạm dừng, bot dừng ngay lập tức, nhả phím/chuột và không bao giờ tự ý chạy lại khi người dùng chưa bấm Chạy.\n• [P0] Động cơ kéo cá Hyper Reeling (100% Catch Rate): Sửa lỗi gán ngược tọa độ (trước đây gán nhầm cá theo lưới khiến cá bơi mất, nay khóa chuẩn xác lưới Ne.z theo cá Ne.f), kiểm soát lực kéo Te và gia tăng tiến độ câu mượt mà, đảm bảo kéo cá dính 100% không để cá sổng.\n• [P0] Quét toàn map & Căn hướng mép nước (10 bãi câu toàn đảo): Tự động quét và hỗ trợ toàn bộ 10 bãi câu (Harbour, Tidal Sea, Trophy Lagoon, Lily Pond, Frost Lake, Ember Crater, Gloom Marsh, Storm Reef, West pier, North pier), tự động nhận diện mặt nước và xoay người chơi (ke.dir) ra nước để nút Cast luôn sẵn sàng.\n• [P0] Xử lý kẹt màn hình \"Loading the event...\": Sửa lỗi thực thi preload qua webFrame chuẩn Electron, thêm watchdog phát hiện game đã tải để lập tức dọn bỏ fish-gate che màn hình và tự làm mới phiên khi vé vào cửa hết hạn."
+  "version": "1.6.6",
+  "releaseDate": "2026-11-23T21:00:22.520Z",
+  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.6.6/app.asar",
+  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.6.6/app.asar",
+  "asarSize": 1663779,
+  "sha256": "0a658e9ce657447b4b721ab3a35fb446aa7e3071bff33866672e7d05861e9d4f",
+  "notes": "Bản cập nhật v1.6.6 — Sửa triệt để kẹt Loading the event, điều hướng trong cửa sổ & hoàn thiện động cơ câu cá V3:\n• [P0] Sửa triệt để kẹt màn hình \"Loading the event...\": Cập nhật interceptor /priv/fish.js tương thích bản minified mới nhất của PokéLit, nạp engine accessors trực tiếp trong phạm vi đóng của game, ngăn chặn kẹt FishGate và tự gỡ bỏ overlay khi canvas hiển thị.\n• [P0] Điều hướng trong cửa sổ chính (In-window navigation): Chặn các popup window.open vô danh của game để ép PokéLit điều hướng sang trang fish ngay trong cửa sổ chính có đầy đủ preload, toolbar và phím điều khiển bot.\n• [P0] Động cơ kéo cá Hyper Reeling (100% Catch Rate): Đồng bộ cả biến cũ (Ne, Te) lẫn biến mới (on, $r), khóa chuẩn xác tọa độ lưới theo cá và kiểm soát lực kéo, đảm bảo kéo cá dính 100% không để cá sổng.\n• [P0] Quét 10 bãi câu toàn đảo & Tự căn hướng mép nước: Tự động xoay người chơi ra nước qua hàm native checkWaterAim/Pn, tự động loại trừ Trophy Lagoon khỏi danh sách câu cá (do đây là hồ thả cá của Judge Orin, cấm câu).\n• [P0] Dừng & Tạm dừng tuyệt đối (Strict Stop / Pause): Nhả sạch phím Space và chuột ngay lập tức khi người dùng bấm Dừng/Tạm dừng, tuyệt đối không tự ý chạy lại."
 }
