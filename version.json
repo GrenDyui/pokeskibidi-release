@@ -1,9 +1,9 @@
 {
-  "version": "1.6.0",
-  "releaseDate": "2026-11-23T07:37:38.009Z",
-  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.6.0/app.asar",
-  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.6.0/app.asar",
-  "asarSize": 1577154,
-  "sha256": "0971db58e966cdbcc4af60e38096d670ca54f0901893eb1f355b87ede9323a01",
-  "notes": "Bản cập nhật v1.6.0 — Khắc phục triệt để lỗi di chuyển (nearbySpecials is not defined) & Nâng cấp Pilot Auto-Play toàn diện:\n• [P0] Khắc phục triệt để lỗi nearbySpecials & liveChest is not defined: Tự động khởi tạo và truy vấn World.specialsNear an toàn với cơ chế phòng vệ try-catch; hoist khai báo liveChest ngăn ReferenceError khi đang tương tác mở rương, loại bỏ hoàn toàn hiện tượng nhân vật đứng im và lỗi hiển thị trên thanh công cụ.\n• [P0] Đa chặng tìm kiếm rương radar tầm xa (Distant Radar Waypointing): Tích hợp mục tiêu rương vào vHiPrio, kích hoạt thuật toán A* nới lỏng (220) và phân đoạn tia tìm đường trung gian lên đến 2400px.\n• [P0] Cơ chế kiên trì chống chặn rương (Anti-Ban Tenacity): Thay thế hình phạt cấm 15s tức thì bằng quy tắc 3 lần thất bại (3-strike rule), ngăn chặn hủy mục tiêu rương sớm khi chưa tìm được đường ngay.\n• [P0] Tối ưu hóa kênh mở rương (Instant Channel Release): Mở rộng bán kính nhận diện rương lên 64px và tự động thoát trạng thái đứng chờ ngay khi rương đã được mở hoặc phá hủy.\n• [P1] Phòng vệ thực thể toàn diện: Tăng cường optional chaining cho player, EnemyMgr, Projectiles và thời gian trận đấu, đảm bảo bot hoạt động liên tục 24/7 không gián đoạn."
+  "version": "1.6.1",
+  "releaseDate": "2026-11-23T12:10:20.283Z",
+  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.6.1/app.asar",
+  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.6.1/app.asar",
+  "asarSize": 1627017,
+  "sha256": "c5df0e46133868c795ef9de7d75eec45df2c8eb231f533b205ff5b79c681146f",
+  "notes": "Bản cập nhật v1.6.1 — Tích hợp Động cơ Câu cá Tự động (Hybrid Stealth), Phân chia 2 Chế độ Chơi & Tự động Đăng nhập lại (Auto Relogin):\n• [P0] Tự động Đăng nhập lại (Auto Relogin): Hỗ trợ lưu trữ tài khoản/mật khẩu trong cài đặt, tự động phát hiện màn hình đăng nhập khi tài khoản bị văng để điền và đăng nhập lại ngay lập tức.\n• [P0] Phân chia 2 Chế độ chơi rõ ràng: Chuyển đổi linh hoạt giữa Chế độ Sinh Tồn (Battle) và Chế độ Câu Cá (Fishing) với giao diện thiết lập độc lập.\n• [P0] Động cơ Câu cá Tự động Thông minh (Hybrid Stealth Fishing): Tự chọn 8 vùng nước theo hệ Pokémon hoặc tự hoàn thành Bestiary; kéo cá đạt Perfect Catch (+25% Pearls) nhưng vẫn an toàn 100% nhờ mô phỏng tay người (chuỗi trúng 4-6 con, giả vờ hụt 1-3 con, nghỉ 1-2s giữa các lần quăng, chệch nhịp 0.8s đầu và chu kỳ thoát vào lại sau 30 phút).\n• [P0] Quản lý chiến lợi phẩm câu cá: Tự động giữ cá Shiny/Hiếm, tự dịch chuyển về bến cảng bán sạch cá thường lấy Ngọc Trai khi đầy túi và tự nạp mồi câu.\n• [P0] Kế thừa toàn diện bản vá lỗi di chuyển (nearbySpecials is not defined): Đảm bảo nhân vật luôn di chuyển nhặt rương mượt mà, không bao giờ bị đứng im."
 }
