@@ -1,9 +1,9 @@
 {
   "version": "1.6.0",
-  "releaseDate": "2026-11-23T04:58:14.387Z",
+  "releaseDate": "2026-11-23T06:02:37.263Z",
   "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.6.0/app.asar",
   "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.6.0/app.asar",
-  "asarSize": 1572898,
-  "sha256": "3376748fb7536026aa10121e229bd3e155e4f5ad4575974aceac0641fb9511f5",
-  "notes": "Bản cập nhật v1.6.0 — Khắc phục triệt để lỗi 0 rương, đứng im một chỗ & Tối ưu giảm 70% CPU:\n• [P0] Khắc phục triệt để lỗi 0 RƯƠNG (0 chests): Sửa lỗi presentChest vô tình đánh dấu hủy bỏ (retireChest) các rương cách nhân vật 450-650px. Mở rộng tầm quét lên 64px, giữ nguyên mục tiêu rương và không bao giờ hủy rương chưa mở.\n• [P0] Khắc phục lỗi đứng im cả trận (Standing still): Bổ sung waypoint tìm kiếm dự phòng trong chestSearchCandidates, ngăn pilotState.stand kích hoạt khi không có mục tiêu, đảm bảo nhân vật liên tục di chuyển và khám phá các chunk rương mới.\n• [P0] Tối ưu hóa CPU & Raycasts: Giảm tần suất tính toán pilot.steer() xuống 28Hz (cache 35ms), khóa trần 30 FPS trên Chromium GPU, giúp giảm tải CPU từ 56% xuống dưới 15%.\n• [P1] Tương thích bản cập nhật game mới nhất 78b020213c: Cập nhật baselineBuild lên 78b020213c, xóa cảnh báo cập nhật trang web.\n• Giữ nguyên toàn bộ tính năng tự sát Arceus nhanh, Auto-Trim RAM và Discord Webhook 5 phút."
+  "asarSize": 1576772,
+  "sha256": "894a86a7faf796833372468a50ad28c5755ef350c0da4331739d54b4cb520c95",
+  "notes": "Bản cập nhật v1.6.0 — Khắc phục triệt để lỗi di chuyển (nearbySpecials is not defined) & Nâng cấp Pilot Auto-Play toàn diện:\n• [P0] Khắc phục triệt để lỗi nearbySpecials & liveChest is not defined: Tự động khởi tạo và truy vấn World.specialsNear an toàn với cơ chế phòng vệ try-catch; hoist khai báo liveChest ngăn ReferenceError khi đang tương tác mở rương, loại bỏ hoàn toàn hiện tượng nhân vật đứng im và lỗi hiển thị trên thanh công cụ.\n• [P0] Đa chặng tìm kiếm rương radar tầm xa (Distant Radar Waypointing): Tích hợp mục tiêu rương vào vHiPrio, kích hoạt thuật toán A* nới lỏng (220) và phân đoạn tia tìm đường trung gian lên đến 2400px.\n• [P0] Cơ chế kiên trì chống chặn rương (Anti-Ban Tenacity): Thay thế hình phạt cấm 15s tức thì bằng quy tắc 3 lần thất bại (3-strike rule), ngăn chặn hủy mục tiêu rương sớm khi chưa tìm được đường ngay.\n• [P0] Tối ưu hóa kênh mở rương (Instant Channel Release): Mở rộng bán kính nhận diện rương lên 64px và tự động thoát trạng thái đứng chờ ngay khi rương đã được mở hoặc phá hủy.\n• [P1] Phòng vệ thực thể toàn diện: Tăng cường optional chaining cho player, EnemyMgr, Projectiles và thời gian trận đấu, đảm bảo bot hoạt động liên tục 24/7 không gián đoạn."
 }
