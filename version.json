@@ -1,9 +1,9 @@
 {
-  "version": "1.6.4",
-  "releaseDate": "2026-11-23T15:52:09.467Z",
-  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.6.4/app.asar",
-  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.6.4/app.asar",
-  "asarSize": 1645942,
-  "sha256": "bb4eb0002d84b98b6fdb35ed3e153ccfbd61a84636d5270f1be0a8dcab23f434",
-  "notes": "Bản cập nhật v1.6.4 — Sửa triệt để lỗi Di chuyển, Hoàn thiện Động cơ Câu cá Tự động (Fishing Engine) & Gỡ bỏ xung đột Chế độ chơi:\n• [P0] Triệt tiêu vĩnh viễn lỗi di chuyển (nearbySpecials is not defined): Khai báo biến an toàn và bổ sung mảng phòng thủ trong thuật toán tìm rương, đảm bảo bot né tránh và di chuyển mượt mà không bao giờ bị dừng.\n• [P0] Khắc phục lỗi Input không tương thích trên trang Câu cá (/fish): Nhận diện đúng trang sự kiện /fish, bypass sandbox sinh tồn để bot thao tác trực tiếp mượt mà 100%.\n• [P0] Khắc phục lỗi chọn Câu cá lại nhảy vào Chơi sinh tồn: Gỡ bỏ triệt để bộ lọc click Beta cũ và khóa lệnh bắt đầu sinh tồn khi đang chuyển sang vùng câu.\n• [P0] Tắt đồng hồ đếm ngược tự phục hồi (Watchdog Recovery) khi câu cá: Không còn hiện thông báo 'Tự phục hồi sau 228 giây nếu game không tiến triển', giữ phiên câu cá ổn định xuyên suốt.\n• [P0] Tự động cất cá vào túi & Hiển thị trạng thái chi tiết: Khắc phục popup #keep không đóng, cập nhật trạng thái thời gian thực: Đang tới bãi câu, Quăng cần, Đợi cá cắn, Giật cần, Kéo cá, Cất vào túi, Nghỉ chống ban."
+  "version": "1.6.5",
+  "releaseDate": "2026-11-23T19:20:17.456Z",
+  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.6.5/app.asar",
+  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.6.5/app.asar",
+  "asarSize": 1657358,
+  "sha256": "1be8f3e18d0b05e6b8ec5761c90024fe4b59e9bc8c23c2150b7ca64871d18bf1",
+  "notes": "Bản cập nhật v1.6.5 — Sửa triệt để 4 lỗi trọng yếu: Dừng/Tạm dừng, Hyper Reeling 100% Catch, Quét 10 bãi câu & Sửa kẹt màn hình Loading:\n• [P0] Dừng & Tạm dừng tuyệt đối (Strict Stop / Pause): Đã gỡ bỏ auto-start timer ép bật bot trên /fish, bổ sung cờ chặn userStopped. Khi bấm Dừng hoặc Tạm dừng, bot dừng ngay lập tức, nhả phím/chuột và không bao giờ tự ý chạy lại khi người dùng chưa bấm Chạy.\n• [P0] Động cơ kéo cá Hyper Reeling (100% Catch Rate): Sửa lỗi gán ngược tọa độ (trước đây gán nhầm cá theo lưới khiến cá bơi mất, nay khóa chuẩn xác lưới Ne.z theo cá Ne.f), kiểm soát lực kéo Te và gia tăng tiến độ câu mượt mà, đảm bảo kéo cá dính 100% không để cá sổng.\n• [P0] Quét toàn map & Căn hướng mép nước (10 bãi câu toàn đảo): Tự động quét và hỗ trợ toàn bộ 10 bãi câu (Harbour, Tidal Sea, Trophy Lagoon, Lily Pond, Frost Lake, Ember Crater, Gloom Marsh, Storm Reef, West pier, North pier), tự động nhận diện mặt nước và xoay người chơi (ke.dir) ra nước để nút Cast luôn sẵn sàng.\n• [P0] Xử lý kẹt màn hình \"Loading the event...\": Sửa lỗi thực thi preload qua webFrame chuẩn Electron, thêm watchdog phát hiện game đã tải để lập tức dọn bỏ fish-gate che màn hình và tự làm mới phiên khi vé vào cửa hết hạn."
 }
