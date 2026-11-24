@@ -1,9 +1,9 @@
 {
-  "version": "1.7.0",
-  "releaseDate": "2026-11-24T10:58:18.226Z",
-  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.0/app.asar",
-  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.0/app.asar",
-  "asarSize": 1925954,
-  "sha256": "2f3da7754495021720423ed5641dccfd4b3b54992342d09ebf663bfaae6bef30",
-  "notes": "Bản cập nhật v1.7.0 — Hệ thống Đa Đảo 9 Map Câu Cá (Captain Wade Ferry + Tọa độ động) & Bộ lọc Chống Tốn Slot Túi:\n• [P0] Hệ thống 9 Map / Đảo Câu Cá (Kanto → Paldea):\n  - Cho phép chọn trực tiếp Đảo mục tiêu (Đảo 1 Kanto → Đảo 9 Paldea), Giữ đảo hiện tại, hoặc Tự động đi phà sang đảo cao nhất đã mở khóa qua Captain Wade · Ferry.\n  - Tự động đọc tọa độ động (Dynamic Waypoints) của từng đảo trực tiếp từ game (bao gồm Harbour, Pip Cart, các hồ Lily Pond / Frost Lake / Ember Crater / Gloom Marsh đứng chuẩn trên cầu gỗ vươn ra mặt nước, và East pier ở đảo 3, 5, 7, 8, 9), không còn bị lệch tọa độ khi đổi đảo.\n• [P0] Chống tốn slot túi cho cá Common / Uncommon có trait phụ:\n  - Thêm bộ lọc \"Độ hiếm tối thiểu để gắn sao ★\" (mặc định từ Rare trở lên).\n  - Cá Common & Uncommon dù có trait phụ (Giant, Colossal, Titanic, Record, Shiny, Prismatic...) cũng sẽ KHÔNG bị tự động gắn sao ★ mà được bán gọn lấy Ngọc Trai để giữ trống slot túi 300 con cho cá Rare / Epic / Legendary xịn!\n• [P1] Kế thừa toàn bộ nâng cấp Động cơ Câu cá V5 (Mua mồi chuẩn API ×10/×1, 4 loại mồi thật, Tự săn Feeding Frenzy & Bóng cá, Webhook Pro, Stealth PD-Controller Reel)."
+  "version": "1.7.1",
+  "releaseDate": "2026-11-24T12:30:03.270Z",
+  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.1/app.asar",
+  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.1/app.asar",
+  "asarSize": 1964651,
+  "sha256": "1e394207bd3eeb5e88609248917bacb1b4759bb30bc8aa6bf1b375103cdd2f21",
+  "notes": "Bản cập nhật v1.7.1 — Vá triệt để lỗi rơi vào Hồ Trung Tâm (Trophy Lagoon) trên Đảo 4 (Sinnoh) & các đảo 2–9:\n• [P0] Chống rơi vào Trophy Lagoon & Cấm dùng nhầm tọa độ Đảo 1 trên Đảo 2–9:\n  - Chặn tuyệt đối việc kế thừa tọa độ Đảo 1 (3200, 4476 — trùng đúng tâm Trophy Lagoon của Đảo 4 Frostspire Isle!) khi đang đứng ở Đảo 2–9.\n  - Tự động phát hiện đổi đảo (kể cả khi người chơi tự bấm đi phà) để xóa sạch tọa độ cũ và nạp lại tọa độ động mới của đảo hiện tại.\n  - Bổ sung cơ chế tự động thoát Trophy Lagoon (Anti-Lagoon Auto-Escape) và kiểm tra điểm đứng có câu được thật (canCastFrom / isWalkable / !isInLagoon) trên toàn bộ 9 đảo (Kanto → Paldea).\n• [P0] Tự động nhận diện biến Minified của /priv/fish.js (Minifier-Proof):\n  - Trích xuất trực tiếp tên hàm/biến cấu trúc từ mã nguồn game thay vì gán cứng, chống hỏng tọa độ động mỗi khi PokéLit cập nhật build web mới.\n• [P1] Giữ nguyên toàn bộ tính năng v1.7.0 (Chọn 9 đảo đi phà tự động, lọc độ hiếm tối thiểu gắn sao ★ từ Rare trở lên, mua mồi chuẩn API ×10/×1, săn Feeding Frenzy & Bóng cá, Webhook Pro)."
 }
