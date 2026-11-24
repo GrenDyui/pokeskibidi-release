@@ -1,9 +1,9 @@
 {
-  "version": "1.7.2",
-  "releaseDate": "2026-11-24T15:27:37.543Z",
-  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.2/app.asar",
-  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.2/app.asar",
-  "asarSize": 1965949,
-  "sha256": "7203f2b5a565a97d3ebaac3b35fa14709eeac2624d5f73877ed25a0f375f65a3",
-  "notes": "Bản cập nhật v1.7.2 — Nhịp phản xạ giật cần tự nhiên (220–520ms) cho Chế độ Câu cá:\n• [P0] Độ trễ phản xạ giật cần tự nhiên (Human Bite Reaction):\n  - Bổ sung trễ phản xạ theo phân phối hình chuông (220–520ms khi bật Kéo cá không hoàn hảo, hoặc 190–360ms) trước khi giật cần lúc cá cắn phao (bite), thay vì giật tức thời 36ms.\n  - Giúp tỷ lệ Perfect Hook (hk) rơi tự nhiên như người chơi thật (~35–45%) mà vẫn an toàn tuyệt đối dưới ngưỡng cá chạy (1.05s).\n• [P1] Giữ nguyên toàn bộ nâng cấp v1.7.1 (Chống rơi & tự thoát Trophy Lagoon trên toàn bộ 9 đảo, Minifier-Proof dynamic waypoints, lọc độ hiếm tối thiểu gắn sao ★ từ Rare trở lên, mua mồi chuẩn API ×10/×1, Webhook Pro)."
+  "version": "1.7.3",
+  "releaseDate": "2026-11-24T16:00:15.167Z",
+  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.3/app.asar",
+  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.3/app.asar",
+  "asarSize": 2012420,
+  "sha256": "da8878122564379890f94e09e8d4e9eda7024e5d2f8d102364089392e8fcba98",
+  "notes": "Bản cập nhật v1.7.3 — Chức năng Săn Pokémon Mục Tiêu (Target Species Sniper · 980 loài) cho Chế độ Câu cá:\n• [P0] Săn Pokémon mục tiêu thông minh (Target Sniper):\n  - Nhập tên hoặc mã Dex của bất kỳ loài nào trong 980 Pokémon câu được (vd: Rayquaza, Arceus, Dialga, Mewtwo, #384...) ngay trong Cài đặt → Câu cá.\n  - Gợi ý (RCM) tức thời Đảo, Bãi câu có tỉ lệ trúng cao nhất theo đúng công thức trọng số của game (vd: Rayquaza → Đảo 3 Hoenn → Storm Reef pier, tỷ lệ ra cao gấp 7.7× so với Tidal Sea!) kèm gợi ý mồi phù hợp.\n  - Tự động đi phà sang đúng đảo (qua Captain Wade · Ferry), tự dịch chuyển thẳng tới bãi câu tối ưu, tự gắn sao ★ bảo vệ con mục tiêu khi bắt được.\n• [P0] Vẫn ghé săn Feeding Frenzy rồi tự quay lại bãi mục tiêu:\n  - Khi bật Tự săn Feeding Frenzy, hễ có Frenzy xuất hiện trên đảo bot vẫn bay qua tận dụng ×3 cá hiếm & cắn siêu nhanh, hết Frenzy lập tức tự quay lại đúng bãi săn Pokémon mục tiêu!\n• [P1] Giữ nguyên toàn bộ nâng cấp v1.7.2 (Phản xạ giật cần tự nhiên 220–520ms, chống rơi & tự thoát Trophy Lagoon trên toàn bộ 9 đảo, Minifier-Proof waypoints)."
 }
