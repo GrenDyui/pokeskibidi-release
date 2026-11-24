@@ -1,9 +1,9 @@
 {
   "version": "1.6.8",
-  "releaseDate": "2026-11-24T03:34:03.170Z",
+  "releaseDate": "2026-11-24T04:16:26.950Z",
   "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.6.8/app.asar",
   "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.6.8/app.asar",
-  "asarSize": 1786478,
-  "sha256": "a4932a0b7a0fcd51bf083f3d6fde8aae55bbf3118d83f347f24b3a4d2086af02",
+  "asarSize": 1815797,
+  "sha256": "55cfd866022a3ae7925dc05115eb1a338133346e60f48129fefd66a50262f602",
   "notes": "Bản cập nhật v1.6.8 — Nâng cấp toàn diện Động cơ Câu Cá V4 & Sửa lỗi Toolbar / IPC:\n• [P0] Động cơ Câu Cá V4 (Fishing Engine V4):\n  - Hỗ trợ dung lượng túi lên tới 300 con; tùy chỉnh ngưỡng bán (1–300).\n  - Bộ lọc giữ lại cá xịn: Tùy chọn giữ Shiny, Trophy/Giant, lọc theo 4 bậc độ hiếm (Mythic, Legendary, Epic, Rare), và danh sách tên loài cá muốn giữ lại (Whitelist).\n  - Khóa cá chống bán nhầm và cơ chế chống lặp vô hạn (tự dừng khi túi đầy cá giữ, tránh bay về Harbour liên tục).\n  - QoL Tự mua mồi: Tự động kiểm tra số lượng mồi, bổ sung khi dưới ngưỡng tồn kho (chọn loại mồi, số lượng mua).\n  - QoL Tự lưu tiến trình ngay lập tức khi bắt được cá hiếm (Mythic/Legendary/Shiny).\n  - Tùy chỉnh chu kỳ xoay vòng bãi câu linh hoạt từ 1 đến 120 phút.\n  - Hệ thống Webhook Discord chuyên biệt cho Fishing: Thông báo cá hiếm (kèm ảnh chụp màn hình), thông báo bán cá & kiếm ngọc trai, tổng kết sản lượng định kỳ mỗi 5 phút, cảnh báo đầy túi cá giữ, và nhật ký mua mồi.\n• [P0] Sửa lỗi giao diện Toolbar & Nút bấm:\n  - Tách biệt hoàn toàn nút Cài đặt và huy hiệu Cập nhật phiên bản, khắc phục triệt để tình trạng bấm Cập nhật bị nhảy sang Cài đặt hoặc bấm Cài đặt không ăn.\n• [P0] Sửa lỗi IPC & Khởi động Main Process:\n  - Khai báo an toàn hàm kiểm tra chế độ câu cá isFishMode ở top-level, loại bỏ triệt để lỗi \"ReferenceError: isFishMode is not defined\".\n  - Phân tích cơ chế Feeding Frenzy (Cơn sốt săn mồi) 50s trong PokéLit."
 }
