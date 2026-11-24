@@ -1,9 +1,9 @@
 {
-  "version": "1.7.1",
-  "releaseDate": "2026-11-24T12:30:03.270Z",
-  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.1/app.asar",
-  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.1/app.asar",
-  "asarSize": 1964651,
-  "sha256": "1e394207bd3eeb5e88609248917bacb1b4759bb30bc8aa6bf1b375103cdd2f21",
-  "notes": "Bản cập nhật v1.7.1 — Vá triệt để lỗi rơi vào Hồ Trung Tâm (Trophy Lagoon) trên Đảo 4 (Sinnoh) & các đảo 2–9:\n• [P0] Chống rơi vào Trophy Lagoon & Cấm dùng nhầm tọa độ Đảo 1 trên Đảo 2–9:\n  - Chặn tuyệt đối việc kế thừa tọa độ Đảo 1 (3200, 4476 — trùng đúng tâm Trophy Lagoon của Đảo 4 Frostspire Isle!) khi đang đứng ở Đảo 2–9.\n  - Tự động phát hiện đổi đảo (kể cả khi người chơi tự bấm đi phà) để xóa sạch tọa độ cũ và nạp lại tọa độ động mới của đảo hiện tại.\n  - Bổ sung cơ chế tự động thoát Trophy Lagoon (Anti-Lagoon Auto-Escape) và kiểm tra điểm đứng có câu được thật (canCastFrom / isWalkable / !isInLagoon) trên toàn bộ 9 đảo (Kanto → Paldea).\n• [P0] Tự động nhận diện biến Minified của /priv/fish.js (Minifier-Proof):\n  - Trích xuất trực tiếp tên hàm/biến cấu trúc từ mã nguồn game thay vì gán cứng, chống hỏng tọa độ động mỗi khi PokéLit cập nhật build web mới.\n• [P1] Giữ nguyên toàn bộ tính năng v1.7.0 (Chọn 9 đảo đi phà tự động, lọc độ hiếm tối thiểu gắn sao ★ từ Rare trở lên, mua mồi chuẩn API ×10/×1, săn Feeding Frenzy & Bóng cá, Webhook Pro)."
+  "version": "1.7.2",
+  "releaseDate": "2026-11-24T15:27:37.543Z",
+  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.2/app.asar",
+  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.2/app.asar",
+  "asarSize": 1965949,
+  "sha256": "7203f2b5a565a97d3ebaac3b35fa14709eeac2624d5f73877ed25a0f375f65a3",
+  "notes": "Bản cập nhật v1.7.2 — Nhịp phản xạ giật cần tự nhiên (220–520ms) cho Chế độ Câu cá:\n• [P0] Độ trễ phản xạ giật cần tự nhiên (Human Bite Reaction):\n  - Bổ sung trễ phản xạ theo phân phối hình chuông (220–520ms khi bật Kéo cá không hoàn hảo, hoặc 190–360ms) trước khi giật cần lúc cá cắn phao (bite), thay vì giật tức thời 36ms.\n  - Giúp tỷ lệ Perfect Hook (hk) rơi tự nhiên như người chơi thật (~35–45%) mà vẫn an toàn tuyệt đối dưới ngưỡng cá chạy (1.05s).\n• [P1] Giữ nguyên toàn bộ nâng cấp v1.7.1 (Chống rơi & tự thoát Trophy Lagoon trên toàn bộ 9 đảo, Minifier-Proof dynamic waypoints, lọc độ hiếm tối thiểu gắn sao ★ từ Rare trở lên, mua mồi chuẩn API ×10/×1, Webhook Pro)."
 }
