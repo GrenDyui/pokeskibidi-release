@@ -1,9 +1,9 @@
 {
-  "version": "1.7.5",
-  "releaseDate": "2026-11-25T14:47:18.554Z",
-  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.5/app.asar",
-  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.5/app.asar",
-  "asarSize": 2069557,
-  "sha256": "3812dd217b2f1e6b5a99f9545bd442ac6cc00b969a3eb11d62c415bbe9af9d47",
-  "notes": "Bản cập nhật v1.7.5 — Menu 🗺️ TP Nhanh (NPC & Bãi câu), Giữ Cá Biến Thể Bất Kể Độ Hiếm & Thanh HUD Câu Cá Trực Tiếp:\n• [P0] Menu 🗺️ TP Nhanh & Thao Tác 1 Chạm ngay trên Thanh Công Cụ:\n  - Dịch chuyển tức thời tới mọi NPC trên cả 9 đảo (🎣 Chỗ bán Cần Old Marlow, 🪱 Xe bán Mồi Pip, 💰 Quầy bán Cá Coralie, ⛵ Bến Phà Captain Wade, 📋 Bảng Nhiệm Vụ Brine, 👗 Shop Ngoại Hình Tessa, 🏆 Hồ Trưng Bày Judge Orin) — tự động tạm dừng bot để bạn mua đồ và tự mở luôn bảng shop!\n  - Dịch chuyển nhanh tới mọi bãi câu trên đảo hiện tại (Storm Reef, Frost Lake, Ember Crater, Gloom Marsh, Lily Pond, Tidal Sea, West/North/East pier) hoặc ⚡ bay thẳng tới Feeding Frenzy đang diễn ra.\n  - 3 nút thao tác nhanh 1 chạm: 💰 Bán nhanh cá thường (giữ ★), 🎁 Nhận sạch Nhiệm vụ, ☁️ Lưu dữ liệu Cloud ngay.\n• [P0] Giữ cá Biến thể xịn (Demonic / Prismatic / Mega / Shiny) bất kể độ hiếm — tùy chỉnh từng dòng:\n  - Thêm công tắc \"✨ Giữ Biến thể bất kể độ hiếm\" (bật mặc định) + 4 ô tích chọn riêng từng dòng (😈 Demonic ×25, 🌈 Prismatic ×8, 🧬 Mega ×6, ✨ Shiny ×3).\n  - Cá Common/Uncommon có dòng biến thể được chọn sẽ LUÔN được giữ & gắn sao ★, trong khi cá thường kích thước lớn (Giant/Colossal) vẫn được bán gọn theo ngưỡng độ hiếm tối thiểu!\n• [P1] Thanh HUD Câu cá trực tiếp & Nút Đổi Chế Độ 1 chạm (⚔️ Sinh tồn ⇄ 🎣 Câu cá):\n  - Hiển thị trực tiếp 🫧 Ngọc Trai, 🎒 Túi cá, 🎣 Số cá đã câu trong phiên và nút ⚡ Frenzy (bấm để bay thẳng tới Frenzy) ngay trên thanh công cụ, kèm nút chuyển nhanh Sinh tồn ⇄ Câu cá."
+  "version": "1.7.6",
+  "releaseDate": "2026-11-25T15:48:29.861Z",
+  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.6/app.asar",
+  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.6/app.asar",
+  "asarSize": 2073213,
+  "sha256": "675c7a4a4bdb76164cb58fa66ea27e17bed3699f94cc14a1246e8719e5e01e76",
+  "notes": "Bản cập nhật v1.7.6 — Thêm Bộ Lọc Giữ Cá Theo Khối Lượng (kg / tấn):\n• [P0] Giữ cá theo khối lượng tối thiểu (fishKeepMinKg):\n  - Trong Cài đặt → Câu cá, thêm ô \"⚖️ Giữ cá từ khối lượng tối thiểu (kg)\" (0 = tắt, vd nhập 500 = 500 kg, 1000 = 1 tấn, 2000 = 2 tấn).\n  - Mọi cá đạt từ mức cân nặng cài đặt trở lên sẽ được tự gắn sao ★ & giữ lại bất kể độ hiếm — cực tiện để săn cá siêu nặng đua bảng xếp hạng Trophy Lagoon!\n  - Tự động hiển thị quy đổi sang tấn (t) trực tiếp khi nhập.\n• [P1] Giữ nguyên toàn bộ nâng cấp v1.7.5 (Menu 🗺️ TP Nhanh NPC & Bãi câu + Thao tác 1 chạm, Giữ biến thể Demonic/Prismatic/Mega/Shiny bất kể độ hiếm, Thanh HUD Câu cá trực tiếp & nút đổi chế độ ⚔️ ⇄ 🎣)."
 }
