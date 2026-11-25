@@ -1,9 +1,9 @@
 {
-  "version": "1.7.6",
-  "releaseDate": "2026-11-25T15:50:12.390Z",
-  "asarUrl": "https://raw.githubusercontent.com/GrenDyui/pokeskibidi-release/main/releases/v1.7.6/app.asar",
-  "asarFallbackUrl": "https://cdn.jsdelivr.net/gh/GrenDyui/pokeskibidi-release@main/releases/v1.7.6/app.asar",
-  "asarSize": 2073213,
-  "sha256": "675c7a4a4bdb76164cb58fa66ea27e17bed3699f94cc14a1246e8719e5e01e76",
-  "notes": "Bản cập nhật v1.7.6 — Thêm Bộ Lọc Giữ Cá Theo Khối Lượng (kg / tấn):\n• [P0] Giữ cá theo khối lượng tối thiểu (fishKeepMinKg):\n  - Trong Cài đặt → Câu cá, thêm ô \"⚖️ Giữ cá từ khối lượng tối thiểu (kg)\" (0 = tắt, vd nhập 500 = 500 kg, 1000 = 1 tấn, 2000 = 2 tấn).\n  - Mọi cá đạt từ mức cân nặng cài đặt trở lên sẽ được tự gắn sao ★ & giữ lại bất kể độ hiếm — cực tiện để săn cá siêu nặng đua bảng xếp hạng Trophy Lagoon!\n  - Tự động hiển thị quy đổi sang tấn (t) trực tiếp khi nhập.\n• [P1] Giữ nguyên toàn bộ nâng cấp v1.7.5 (Menu 🗺️ TP Nhanh NPC & Bãi câu + Thao tác 1 chạm, Giữ biến thể Demonic/Prismatic/Mega/Shiny bất kể độ hiếm, Thanh HUD Câu cá trực tiếp & nút đổi chế độ ⚔️ ⇄ 🎣)."
+  "version": "1.7.7",
+  "releaseDate": "2026-11-25T22:58:31.894Z",
+  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.7/app.asar",
+  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.7/app.asar",
+  "asarSize": 2081117,
+  "sha256": "6720a6224ac01051e1876eadfdb53e19a858dceefdbb1937fba8bbb62e199f04",
+  "notes": "Bản cập nhật v1.7.7 — Vá lỗi khẩn cấp tốc độ chạy nền chậm 10× (1 ván kéo dài 3–4 tiếng):\n• [P0] Sửa triệt để lỗi game PokéLit tụt tốc độ còn 0.10× (30 giây game / 5 phút thật) khi chạy nền ẩn/thu nhỏ:\n  - Đưa syncEcoVisibility() vào vòng lặp runPageLoop() chính của page.js để tự động đánh thức lại vòng lặp nền 1.0× (eu = setInterval) của PokéLit ngay sau mỗi lần chọn thẻ Level-Up / Shop / Bond.\n  - Bổ sung cơ chế tự phát hiện lên cấp và tái kích hoạt định kỳ (idempotent 1.5s) kèm Background 1.0× Speed Watchdog (tự phục hồi nếu tốc độ game tụt dưới 0.65× thời gian thực).\n  - Áp dụng an toàn cho cả khi bật và tắt Eco Mode lúc chạy nền, giữ nguyên 0% GPU vẽ Canvas và hoàn toàn sạch trước anti-cheat.\n• [P1] Giữ nguyên toàn bộ tính năng v1.7.6 (Giữ cá theo khối lượng tối thiểu kg/tấn, Menu 🗺️ TP Nhanh NPC & Bãi câu, Giữ biến thể bất kể độ hiếm, Thanh HUD Câu cá trực tiếp)."
 }
