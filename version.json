@@ -1,9 +1,9 @@
 {
-  "version": "1.7.10",
-  "releaseDate": "2026-11-26T12:51:07.365Z",
-  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.10/app.asar",
-  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.10/app.asar",
-  "asarSize": 2120043,
-  "sha256": "e5b185b01b07122bbfbb2551fe74d9d568ecaf7165b953ba83cbc3d0b790b9a9",
-  "notes": "Bản cập nhật v1.7.10 — Nâng cấp Promo Code với độ trễ tự nhiên 30–60 phút:\n• [P0] Hàng đợi nhập Promo Code giống người thật (30–60 phút):\n  - Khi phát hiện code mới tự động từ thông báo game (MOTD / Events / News) hoặc kho codes.json, bot sẽ lưu vào hàng đợi và đợi ngẫu nhiên từ 30 đến 60 phút rồi mới nhập (chờ ngoài trận đấu) để hành vi hoàn toàn tự nhiên.\n  - Bấm nút \"🎁 Quét & Nhập ngay\" trong Cài đặt vẫn cho phép nhập ngay lập tức khi bạn muốn.\n  - Kiểm tra hàng đợi mỗi 5 phút (cache kho remote 10 phút) để nhập đúng hẹn khi đến giờ.\n• [P1] Giữ nguyên toàn bộ tính năng v1.7.9 (tự động quét & nhập code chống trùng/rate-limit, tốc độ chạy nền 1.0× chuẩn, sửa lỗi 0 Rương từ Ván #2+, lọc giữ cá theo cân nặng kg/tấn)."
+  "version": "1.7.11",
+  "releaseDate": "2026-11-26T13:08:18.998Z",
+  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.11/app.asar",
+  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.11/app.asar",
+  "asarSize": 2126491,
+  "sha256": "f9e392fed45fce4b02bbd125660d6aa6e1e545019b17081debbcd33db9352a86",
+  "notes": "Bản cập nhật v1.7.11 — Vá nóng lỗi ReferenceError: runAutoPromoScan + Hỗ trợ quét kênh Discord riêng tùy chọn:\n• [P0] Sửa triệt để lỗi ReferenceError: runAutoPromoScan is not defined khi khởi động app (chuyển toàn bộ hàm quét Promo Code ra top-level trong main.cjs và thêm bài test QA khóa scope vĩnh viễn).\n• [P1] Thêm tùy chọn đọc kênh Discord riêng (Discord Bot Token mã hóa Windows + Channel ID, bỏ trống nếu không dùng) song song với quét thông báo trong game, kho codes.json và hàng đợi trễ tự nhiên 30–60 phút."
 }
