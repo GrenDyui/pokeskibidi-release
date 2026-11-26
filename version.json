@@ -1,9 +1,9 @@
 {
-  "version": "1.7.9",
-  "releaseDate": "2026-11-26T12:32:08.128Z",
-  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.9/app.asar",
-  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.9/app.asar",
-  "asarSize": 2113230,
-  "sha256": "668848c15f8950b23e65128258c57a2c64151a4fb576b8752298c10151ad9acb",
-  "notes": "Bản cập nhật v1.7.9 — Thêm tính năng Tự động Quét & Nhập Promo Code:\n• [P0] Tự động quét & nhập Promo Code an toàn (autoRedeemCodes):\n  - Tự động quét code mới từ thông báo trong game (MOTD / Events / CHANGELOG), nguồn codes.json đồng bộ từ GitHub và danh sách bạn dán trong Cài đặt.\n  - Tự động lưu lịch sử (psbot.promoHistory) chống nhập trùng, chỉ chạy lúc ngoài trận chiến (trừ khi bấm Quét & Nhập ngay), giãn nhịp 2.8s/code và tự dừng khi server báo rate-limit.\n  - Hỗ trợ nút \"🎁 Quét & Nhập ngay\" ngay trong Cài đặt → Nhịp chạy & Ứng dụng, hiển thị rõ phần thưởng từng code.\n• [P1] Giữ nguyên toàn bộ bản vá v1.7.8 (tốc độ chạy nền 1.0× chuẩn + hết sạch lỗi 0 Rương từ Ván #2+ + lọc giữ cá theo cân nặng kg/tấn)."
+  "version": "1.7.10",
+  "releaseDate": "2026-11-26T12:51:07.365Z",
+  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.10/app.asar",
+  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.10/app.asar",
+  "asarSize": 2120043,
+  "sha256": "e5b185b01b07122bbfbb2551fe74d9d568ecaf7165b953ba83cbc3d0b790b9a9",
+  "notes": "Bản cập nhật v1.7.10 — Nâng cấp Promo Code với độ trễ tự nhiên 30–60 phút:\n• [P0] Hàng đợi nhập Promo Code giống người thật (30–60 phút):\n  - Khi phát hiện code mới tự động từ thông báo game (MOTD / Events / News) hoặc kho codes.json, bot sẽ lưu vào hàng đợi và đợi ngẫu nhiên từ 30 đến 60 phút rồi mới nhập (chờ ngoài trận đấu) để hành vi hoàn toàn tự nhiên.\n  - Bấm nút \"🎁 Quét & Nhập ngay\" trong Cài đặt vẫn cho phép nhập ngay lập tức khi bạn muốn.\n  - Kiểm tra hàng đợi mỗi 5 phút (cache kho remote 10 phút) để nhập đúng hẹn khi đến giờ.\n• [P1] Giữ nguyên toàn bộ tính năng v1.7.9 (tự động quét & nhập code chống trùng/rate-limit, tốc độ chạy nền 1.0× chuẩn, sửa lỗi 0 Rương từ Ván #2+, lọc giữ cá theo cân nặng kg/tấn)."
 }
