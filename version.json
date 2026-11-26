@@ -1,9 +1,9 @@
 {
-  "version": "1.7.8",
-  "releaseDate": "2026-11-26T03:48:23.792Z",
-  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.8/app.asar",
-  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.8/app.asar",
-  "asarSize": 2083729,
-  "sha256": "4156f4561fbc1eba8bf10501af45935e9e4853456cf08ac9de49b2f702109b2b",
-  "notes": "Bản cập nhật v1.7.8 — Sửa lỗi bot đứng yên từ Ván #2 trở đi khi chạy nền (Rương 0 / không vào Rift / chết nhanh ở Arceus):\n• [P0] Sửa lỗi botState.dead bị kẹt thành true sau khi chết ở cuối Ván #1 khi chạy nền tắt vẽ Canvas:\n  - core.js giờ cập nhật botState.dead, botState.hpRatio và reset trạng thái ván mới trực tiếp từ window.G.Game.player mỗi nhịp (không còn phụ thuộc vào chữ vẽ trên Canvas).\n  - pilot.js thêm isPlayerDead() đọc trực tiếp trạng thái sống/chết từ G.Game.player cho cả isBotActive() lẫn auto-pick (fn16), đảm bảo từ Ván #2, #3... trở đi bot lập tức chạy săn Rương, vào Rift, săn Shiny và né/kéo Boss Arceus đầy đủ.\n  - Thêm nhịp nền 150ms (v105BgTimer) trong core.js để pilot.tick(), chọn thẻ, shop và bộ đếm Arceus vẫn chạy mượt ngay cả khi Chromium hạ requestAnimationFrame lúc cửa sổ ẩn.\n• [P1] Giữ nguyên bản vá tốc độ chạy nền 1.0× chuẩn thực tế của v1.7.7 và toàn bộ tính năng Câu cá v1.7.6."
+  "version": "1.7.9",
+  "releaseDate": "2026-11-26T12:32:08.128Z",
+  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.9/app.asar",
+  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.9/app.asar",
+  "asarSize": 2113230,
+  "sha256": "668848c15f8950b23e65128258c57a2c64151a4fb576b8752298c10151ad9acb",
+  "notes": "Bản cập nhật v1.7.9 — Thêm tính năng Tự động Quét & Nhập Promo Code:\n• [P0] Tự động quét & nhập Promo Code an toàn (autoRedeemCodes):\n  - Tự động quét code mới từ thông báo trong game (MOTD / Events / CHANGELOG), nguồn codes.json đồng bộ từ GitHub và danh sách bạn dán trong Cài đặt.\n  - Tự động lưu lịch sử (psbot.promoHistory) chống nhập trùng, chỉ chạy lúc ngoài trận chiến (trừ khi bấm Quét & Nhập ngay), giãn nhịp 2.8s/code và tự dừng khi server báo rate-limit.\n  - Hỗ trợ nút \"🎁 Quét & Nhập ngay\" ngay trong Cài đặt → Nhịp chạy & Ứng dụng, hiển thị rõ phần thưởng từng code.\n• [P1] Giữ nguyên toàn bộ bản vá v1.7.8 (tốc độ chạy nền 1.0× chuẩn + hết sạch lỗi 0 Rương từ Ván #2+ + lọc giữ cá theo cân nặng kg/tấn)."
 }
