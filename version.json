@@ -1,9 +1,9 @@
 {
-  "version": "1.7.11",
-  "releaseDate": "2026-11-26T13:08:18.998Z",
-  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.11/app.asar",
-  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.7.11/app.asar",
-  "asarSize": 2126491,
-  "sha256": "f9e392fed45fce4b02bbd125660d6aa6e1e545019b17081debbcd33db9352a86",
-  "notes": "Bản cập nhật v1.7.11 — Vá nóng lỗi ReferenceError: runAutoPromoScan + Hỗ trợ quét kênh Discord riêng tùy chọn:\n• [P0] Sửa triệt để lỗi ReferenceError: runAutoPromoScan is not defined khi khởi động app (chuyển toàn bộ hàm quét Promo Code ra top-level trong main.cjs và thêm bài test QA khóa scope vĩnh viễn).\n• [P1] Thêm tùy chọn đọc kênh Discord riêng (Discord Bot Token mã hóa Windows + Channel ID, bỏ trống nếu không dùng) song song với quét thông báo trong game, kho codes.json và hàng đợi trễ tự nhiên 30–60 phút."
+  "version": "1.8.0",
+  "releaseDate": "2026-11-28T05:19:16.925Z",
+  "asarUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.8.0/app.asar",
+  "asarFallbackUrl": "https://github.com/GrenDyui/pokeskibidi-release/releases/download/v1.8.0/app.asar",
+  "asarSize": 2168883,
+  "sha256": "9ad348a5b724079393ad533f4cf6817cbcf7c2c570978c1b77087c314639bea9",
+  "notes": "Bản cập nhật v1.8.0 — Tự động nhận Nhiệm vụ/Quà, Sao lưu Profile, Ưu tiên Đền Buff & Cẩm nang BiS:\n• Tự động nhận Nhiệm vụ Ngày/Tuần & Quà Server định kỳ (kèm nút \"Nhận thưởng ngay\" cho cả Sinh tồn & Câu cá) và theo dõi tiến độ Pass trong Phiên & Nhật ký.\n• Sao lưu & Chuyển máy nhanh: Xuất / Nhập cấu hình JSON (tự động lọc bỏ thông tin nhạy cảm & giữ nguyên mật khẩu/token máy hiện tại).\n• Thêm tùy chọn ưu tiên ăn Đền Buff & săn Meowth Vàng (#huntAltar) cùng Cẩm nang Best Build Crafting (BiS) tối ưu x2–x3 sản lượng.\n• Sửa hiển thị đủ 10 vùng bản đồ (Kanto → Hall of Origin) và bổ sung chỉ số tốc độ ván/giờ trực tiếp."
 }
